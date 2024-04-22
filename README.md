@@ -26,7 +26,7 @@ This script requires several Python libraries:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://yourgithubrepo.com/alenperic/darkweb-downloader.git
+   git clone https://github.com/alenperic/Darkweb-Downloader.git
    cd darkweb-downloader
    ```
 
