@@ -54,3 +54,6 @@ The files will be downloaded to the `downloaded_files` directory, and progress w
 ## Contributing
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request.
+
+CREDITS: 
+[alenperic/Darkweb-Downloader](https://github.com/alenperic/Darkweb-Downloader) for the orginal code and inspiration! 
