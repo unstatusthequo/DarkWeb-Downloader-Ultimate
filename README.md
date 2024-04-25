@@ -1,12 +1,12 @@
-# Darkweb Downloader
+# Darkweb Downloader Ultimate Edition
 
-This Python script facilitates the anonymous downloading of files from URLs listed in a `.txt` file through the Tor network. The script ensures privacy by routing requests through Tor and provides real-time progress updates on the downloads, including download speed and percentage completion. It also logs all download activities to an `output.txt` file for record-keeping and audit purposes.
+This Python script facilitates the anonymous downloading of files from URLs listed in a `urls.txt` file through the Tor network. The script ensures privacy by routing requests through Tor and provides real-time progress updates on the downloads, including download speed and percentage completion. This form handles multi-threaded downloads, zero byte file handling, and randomly timed retry queue to avoid givin up to quickly. Retries are set at 25, with a random number up to 300 seconds as a diff to avoid pattern blocking by the thread actors. 
 
 ## Features
 
 - **Anonymity**: Uses Tor to anonymize your internet traffic.
-- **Progress Tracking**: Real-time progress bar with percentage completion and download speed.
-- **Logging**: Detailed logs of all download activities.
+- **Progress Tracking**: Real-time download speed with download time, size, and speed.
+- **Logging**: Detailed logs of all successful and failed download activities.
 - **User-Agent Customization**: Sends requests with a generic Mozilla user-agent to mimic typical user traffic.
 
 ## Prerequisites
@@ -26,8 +26,8 @@ This script requires several Python libraries:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/alenperic/Darkweb-Downloader.git
-   cd darkweb-downloader
+   git clone https://github.com/alenperic/Darkweb-Downloader-Ultimate.git
+   cd Darkweb-Downloader-Ultimate
    ```
 
 2. **Install Required Libraries**:
@@ -49,13 +49,7 @@ Run the script using:
 python download.py
 ```
 
-or for logging capabilities:
-
-```bash
-python dwn2.py
-```
-
-The files will be downloaded to the `downloaded_files` directory, and progress will be shown in the command line interface. Logs of the downloads will be stored in `output.txt`.
+The files will be downloaded to the `downloaded_files` directory, and progress will be shown in the command line interface. 
 
 ## Contributing
 
