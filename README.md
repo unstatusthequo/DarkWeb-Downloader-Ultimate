@@ -27,7 +27,7 @@ This script requires several Python libraries:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/alenperic/Darkweb-Downloader-Ultimate.git
-   cd Darkweb-Downloader-Ultimate
+   cd DarkWeb-Downloader-Ultimate
    ```
 
 2. **Install Required Libraries**:
